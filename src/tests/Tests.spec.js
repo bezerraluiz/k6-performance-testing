@@ -37,6 +37,7 @@ export function handleSummary(data) {
 
 // Função principal de execução
 export default function () {
+  // API URL
   const baseUrl = 'https://swapi.dev/api/people/1/';
 
   const params = {
